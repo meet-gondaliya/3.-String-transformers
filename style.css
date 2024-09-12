@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 20px;
+}
+
+.title{
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.output{
+    position: relative;
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 20px;
+    padding: 1rem 1.5rem;
+}
+
+.output label{
+    position: absolute;
+    font-size: 0.75rem;
+    left: 15px;
+    top: -10px;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 3px;
+}
